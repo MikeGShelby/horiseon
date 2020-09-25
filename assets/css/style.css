@@ -1,4 +1,4 @@
-/*-- UTILITY STYLES --*/
+/*-- GLOBAL STYLES --*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -13,7 +13,6 @@ body {
     color: #ffffff;
     text-decoration: none;
 }
-
 
 /*-- HEADER --*/
 .header {
@@ -59,9 +58,27 @@ body {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
+
+
+/*-- SECTION: MAIN CONTENT --*/
+.main-content {
+    width: 75%;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.article-item {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.article-item img {
+    max-height: 200px;
 }
 
 .float-right {
@@ -69,63 +86,12 @@ body {
     margin-left: 25px;
 }
 
-/*-- SECTION: MAIN CONTENT --*/
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+.float-left{
+    float: left;
+    margin-right: 25px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.social-media-marketing h2 {
+.article-item h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
