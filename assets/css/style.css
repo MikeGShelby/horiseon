@@ -149,15 +149,15 @@ body {
     font-size: 1.17em;
 }
 
-.benefits-section {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefits-section img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+
+.benefits-section {
+    margin-bottom: 32px;
+    color: #ffffff;
 }
 
 
