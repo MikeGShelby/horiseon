@@ -4,15 +4,10 @@
     padding: 0;
     margin: 0;
 }
-
 body {
     background-color: #d9dcd6;
 }
 
-.header a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
 /*-- HEADER --*/
 .header {
@@ -20,6 +15,11 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+}
+
+.header a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .header h1 {
@@ -48,6 +48,7 @@ body {
     margin-left: 25px;
 }
 
+
 /*-- HERO/JUMBOTRON --*/
 .hero {
     height: 800px;
@@ -57,7 +58,6 @@ body {
     background-size: cover;
     background-position: center;
 }
-
 
 
 /*-- SECTION: MAIN CONTENT --*/
